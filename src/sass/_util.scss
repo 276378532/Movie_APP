@@ -1,0 +1,29 @@
+//varable
+$black:#000;
+$gray:#777;
+$border:#e4e2e2;
+
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+//超出隐藏 。。。显示
+@mixin line-ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@mixin flex-v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+ 

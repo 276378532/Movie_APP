@@ -1,0 +1,67 @@
+.scoreSummary{
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .summaryItem{
+        &__value{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        &__title{
+            font-size: 12px;
+            color: #777;
+        }
+    }
+
+    .summaryBtn{
+        display: flex;
+        
+        &__item{
+            flex: 1;
+            display: block;
+            height: 46px;
+            line-height: 46px;
+            background-color: #f5f5f5;
+            text-align: center;
+            -webkit-appearance: none;
+            outline: none;
+            border-radius: 4px;
+            color: #777;
+            border: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            
+            i{
+                display: inline-block;
+                margin-right: 10px;
+                width: 16px;
+                height: 16px;
+            }
+            
+            &--want{
+                i{
+                    background: url('../icons/heart.svg') 50% / contain no-repeat;
+                }
+             
+            }
+
+            &--seen{
+                margin-left: 20px;
+
+                i{
+                    background: url('../icons/star.svg') 50% / contain no-repeat;
+                    
+                }
+            }
+        }
+
+    }
+}

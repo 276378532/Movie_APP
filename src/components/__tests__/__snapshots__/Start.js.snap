@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`渲染正常 1`] = `
+<div
+  className="star"
+  style={
+    Object {
+      "height": 15,
+      "width": 75,
+    }
+  }
+>
+  <div
+    className="star__Top"
+    style={
+      Object {
+        "backgroundSize": "15px 15px",
+        "width": "80%",
+      }
+    }
+  />
+</div>
+`;

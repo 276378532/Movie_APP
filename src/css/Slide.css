@@ -1,0 +1,48 @@
+.postSlide {
+  height: 100%;
+  overflow: hidden;
+}
+
+.postSlide__img {
+  width: 100%;
+  height: 100%;
+}
+
+.postSlide__dots {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+.postSlide__dots li {
+  display: inline-block;
+  list-style: none;
+  width: 8px;
+  height: 8px;
+}
+
+.postSlide__dots li:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.postSlide__dots li::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.postSlide__dots li.slick-active::before {
+  background-color: #fff;
+}
+
+.postSlide__dots li button {
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+}
